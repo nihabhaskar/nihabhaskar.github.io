@@ -451,6 +451,12 @@ section {
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
 }
 
+.project-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
 .project-icon {
     font-size: 2rem;
     margin-bottom: 12px;

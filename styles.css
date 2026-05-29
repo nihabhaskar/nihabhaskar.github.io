@@ -524,6 +524,17 @@ section {
     margin-bottom: 4px;
 }
 
+.community-link {
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid var(--color-accent-teal);
+    transition: border-color 0.2s;
+}
+
+.community-link:hover {
+    border-color: var(--color-primary);
+}
+
 .community-role {
     color: var(--color-accent-teal);
     font-size: 0.85rem;

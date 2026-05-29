@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niharika Bhaskar — Software Engineer</title>
+    <meta name="description" content="Niharika Bhaskar — Software Engineer building reliable systems at scale. UCSD CS grad, Google & Salesforce alum.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="#hero" class="nav-logo">NB</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#community">Community</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-name">Niharika Bhaskar</h1>
+            <p class="hero-title">Software Engineer</p>
+            <p class="hero-tagline">Building reliable systems at scale. Passionate about community, research, and the outdoors.</p>
+            <div class="hero-links">
+                <a href="#about" class="btn btn-primary">Learn More</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 5v14M5 12l7 7 7-7"/>
+            </svg>
+        </a>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-photo">
+                    <img src="headshot.jpg" alt="Niharika Bhaskar" class="headshot">
+                </div>
+                <div class="about-text">
+                    <p>Hi! I'm Niharika — a software engineer at Salesforce working on large-scale distributed monitoring systems. I hold an M.S. and B.S. in Computer Science from UC San Diego, with a minor in Economics.</p>
+                    <p>I've interned at Google (twice!), published research at ACM SIGCSE, and co-founded a non-profit that taught coding to 800+ students. I care deeply about building technology that's reliable, equitable, and impactful.</p>
+                    <p>When I'm not writing code, you'll find me:</p>
+                    <div class="hobbies">
+                        <span class="hobby-pill">Rollerblading</span>
+                        <span class="hobby-pill">Travel</span>
+                        <span class="hobby-pill">Yoga</span>
+                        <span class="hobby-pill">Cooking & Baking</span>
+                        <span class="hobby-pill">Plants</span>
+                        <span class="hobby-pill">Hiking</span>
+                        <span class="hobby-pill">Volunteering</span>
+                        <span class="hobby-pill">Painting</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience" id="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Engineer</h3>
+                            <span class="timeline-company">Salesforce</span>
+                            <span class="timeline-date">Aug 2023 — Present</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Led the launch of a FIPS-compliant government-cloud platform, re-architecting core services for cryptographic standards across isolated environments.</li>
+                            <li>Reduced global query latency by 10% for a monitoring system supporting 450K+ monthly queries by designing a distributed RDS schema with managed Redis ingestion.</li>
+                            <li>Restored global service continuity during a critical AWS EKS outage by leading a 10-hour remediation bridge with AWS engineers.</li>
+                            <li>Won 1st Place in a platform-wide engineering hackathon — automated 16-step manual failover into a single intervention.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Engineering Intern</h3>
+                            <span class="timeline-company">Salesforce</span>
+                            <span class="timeline-date">Summer 2022</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Optimized production lock management for 726K+ concurrent deployment locks with automated "abandoned lock" detection.</li>
+                            <li>Architected a data-persistence layer for real-time tracking of Salesforce property changes across global environments.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Engineering Intern</h3>
+                            <span class="timeline-company">Google</span>
+                            <span class="timeline-date">Summer 2021</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Built contextual delivery system for Optimus recommendations in DV360 (Enterprise Ad-Tech) using Java and AngularDart, improving advertiser interaction rates.</li>
+                            <li>Engineered automated suppression logic for high-precision delivery of budget and bid recommendations.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>STEP Intern</h3>
+                            <span class="timeline-company">Google</span>
+                            <span class="timeline-date">Summer 2020</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Created a full-stack web application for senior citizens to connect online during the pandemic — tutorials, forums, and community features.</li>
+                            <li>Built with Java, Google App Engine, OAuth 2.0, and Google Cloud APIs.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Computing for Social Good Researcher</h3>
+                            <span class="timeline-company">UC San Diego</span>
+                            <span class="timeline-date">Aug 2021 — Jan 2023</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Fine-tuned BERT on 75K+ posts to detect violence incitement in online communities, achieving 82% accuracy.</li>
+                            <li>Built comparative analysis framework evaluating human vs. model interpretation of intent.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>CSE Department Tutor</h3>
+                            <span class="timeline-company">UC San Diego</span>
+                            <span class="timeline-date">Jan 2020 — Jun 2022</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Tutored CSE 100 Advanced Data Structures (C++) for 6 quarters, plus intro courses in Java and Python.</li>
+                            <li>Responsible for vetting assignments & exams, and holding lab hours for additional student support.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>CAIDA Undergraduate Researcher (ERSP)</h3>
+                            <span class="timeline-company">UC San Diego</span>
+                            <span class="timeline-date">Sept 2019 — Jun 2020</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Analyzed shifts of IPv4 addresses away from Africa to identify potential misappropriation of unused AFRINIC address blocks.</li>
+                            <li>Devised experiments with advisor KC Claffy using Python and Pandas; presented findings at virtual poster presentation.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Informatics Intern</h3>
+                            <span class="timeline-company">Takeda Pharmaceutical</span>
+                            <span class="timeline-date">Mar 2019 — Mar 2020</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Optimized scientists' chemical inventory SQL database to reduce search time using Oracle SQL Developer.</li>
+                            <li>Created VBA-connected Excel templates for centralized data management across teams.</li>
+                            <li>Developed features for TakedaWiki application using PHP and MediaWiki framework.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>HIP Intern</h3>
+                            <span class="timeline-company">Northrop Grumman</span>
+                            <span class="timeline-date">Feb 2018 — Jun 2018</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Worked on NATO Alliance Ground Surveillance project using Git, continuous integration, and static analysis tools.</li>
+                            <li>Presented to a team of 15 about Robot Framework for acceptance test-driven development.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="edu-cards">
+                <div class="edu-card">
+                    <div class="edu-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 4 3 6 3s6-1 6-3v-5"/>
+                        </svg>
+                    </div>
+                    <div class="edu-details">
+                        <h3>University of California, San Diego</h3>
+                        <p class="edu-degree">M.S. in Computer Science</p>
+                        <p class="edu-date">2022 — 2023</p>
+                        <p class="edu-highlights">Graduate TA for Advanced Data Structures &bull; First Author Publication (ACM SIGCSE 2024) &bull; Coursework: NLP, Probabilistic Learning, Search Optimization</p>
+                    </div>
+                </div>
+                <div class="edu-card">
+                    <div class="edu-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 4 3 6 3s6-1 6-3v-5"/>
+                        </svg>
+                    </div>
+                    <div class="edu-details">
+                        <h3>University of California, San Diego</h3>
+                        <p class="edu-degree">B.S. in Computer Science, Minor in Economics</p>
+                        <p class="edu-date">2018 — 2022 &nbsp;|&nbsp; GPA 3.8</p>
+                        <p class="edu-highlights">Distributed Systems, Cryptography, Computer Architecture, ML, Operating Systems &bull; CSE Department Tutor (6 quarters) &bull; ERSP Research Scholar</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">&#128300;</div>
+                    <h3>Violence Incitement Detection</h3>
+                    <p>NLP research fine-tuning BERT on 75K+ posts from fringe communities. Published comparative framework analyzing human vs. model interpretation.</p>
+                    <div class="project-tags">
+                        <span>PyTorch</span><span>BERT</span><span>NLP</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">&#127760;</div>
+                    <h3>Granite — Senior Citizen Platform</h3>
+                    <p>Open-source app helping seniors connect during the pandemic through tutorials and forums. Built at Google STEP.</p>
+                    <div class="project-tags">
+                        <span>Java</span><span>Google App Engine</span><span>OAuth 2.0</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">&#128208;</div>
+                    <h3>AFRINIC IP Address Analysis</h3>
+                    <p>Analyzed shifts of IPv4 addresses away from Africa to identify potential misappropriation of unused address blocks.</p>
+                    <div class="project-tags">
+                        <span>Python</span><span>Pandas</span><span>Jupyter</span>
+                    </div>
+                </div>
+                <div class="project-card placeholder-card">
+                    <div class="project-icon">&#128640;</div>
+                    <h3>More Coming Soon</h3>
+                    <p>New projects in the works — check back soon!</p>
+                    <div class="project-tags">
+                        <span>Stay tuned</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="community" id="community">
+        <div class="container">
+            <h2 class="section-title">Community & Leadership</h2>
+            <div class="community-grid">
+                <div class="community-card">
+                    <h3>Coding the Future</h3>
+                    <p class="community-role">Co-Founder & Board Member &bull; 2016 — Present</p>
+                    <p>Non-profit teaching Java, Python, and Scratch to 800+ students at schools and libraries across San Diego. Managed 80+ volunteers from seven high schools.</p>
+                </div>
+                <div class="community-card">
+                    <h3>UCSD CSE DEI Committee</h3>
+                    <p class="community-role">Committee Intern → Undergrad Lead → Graduate Lead &bull; 2021 — 2023</p>
+                    <p>Addressed inequities within the CS department. Ran the DEI Leadership program mentoring students through seminars on Imposter Syndrome, Intersectionality, and Pathways in CS.</p>
+                </div>
+                <div class="community-card">
+                    <h3>CSE PACE Mentorship Program</h3>
+                    <p class="community-role">Program Creator &bull; Published ACM SIGCSE 2024</p>
+                    <p>Launched a peer-led mentorship program and engineered curricular structures to scale departmental retention. First-author publication on the results.</p>
+                </div>
+            </div>
+            <div class="awards">
+                <h3>Awards & Recognition</h3>
+                <div class="awards-list">
+                    <span class="award-item">Graduate Award for Excellence in Service & Leadership (2023)</span>
+                    <span class="award-item">Undergraduate Award for Excellence in Contributions to Diversity (2022)</span>
+                    <span class="award-item">CSE Alumni Advisory Board Scholarship (2021, 2022)</span>
+                    <span class="award-item">Google CS Research Mentorship Program Scholar (2021)</span>
+                    <span class="award-item">STEM Ambassador, National Girls Collaborative Project (2018)</span>
+                    <span class="award-item">SWE Viasat Scholarship & Northrop Grumman Memorial Scholarship (2018)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="contact-intro">I'm always happy to chat about engineering, research, community work, or anything else. Reach out!</p>
+            <div class="contact-links">
+                <a href="mailto:niha.bhaskar@gmail.com" class="contact-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                    </svg>
+                    <span>niha.bhaskar@gmail.com</span>
+                </a>
+                <a href="https://www.linkedin.com/in/niharika-bhaskar" target="_blank" class="contact-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                    </svg>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/nihabhaskar" target="_blank" class="contact-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    <span>GitHub</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 Niharika Bhaskar</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

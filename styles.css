@@ -574,6 +574,16 @@ section {
     border-radius: 8px;
     font-size: 0.85rem;
     color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+}
+
+.award-link {
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.award-link:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: var(--color-accent-teal);
 }
 
 /* CONTACT */
